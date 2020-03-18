@@ -8,23 +8,12 @@ Machine intelligence is more appropriately viewed as a diverse collection of cap
 ### An Example
 ![GitHub Logo](/images/example.png)
 
-[//]: <
-### An Example 2
-| Question  | At a particular temperature a 2.00 L flask at equilibrium contains $2.80 \times 10^{-4}$ mol $N_2$, $2.50 \times 10^{-5}$ mol $O_2$, and $2.00 \times 10^{-2}$ mol $N_2O$. How would you calculate K at this temperature for the following reaction: $N_2(g) + O_2(g) \rightarrow N_2O(g)$ ?  |
-|---|---|
-| Variable to be solved  |  Equilibrium constant K of this reaction |
-| Conditions provided  | Volume of the flask is 2.00L.\\
-Mole of $N_2$ is  $2.80 \times 10^{-4}$ mol. \\
-Mole of $O_2$ is  $2.50 \times 10^{-5}$ mol. \\
-Mole of $N_2O$ is  $2.00 \times 10^{-2}$ mol. \\
-Reaction equation is  $N_2(g) + O_2(g) \rightarrow N_2O(g)$.|
-| Knowledge required  |  K = $\frac{[N_2O]^a}{[N_2]^b[O_2]^c}$, $[*]$ is the molarity of *, and a,b,c are coefficients of matters. \\
-Molarity $=$ Mole / Volume.\\
-Balance the reaction equation following atomic conservation theory.|
-| Solving steps   | 1. Balance the reaction equation to get a,b and c.\\
-2. Calculate molarities for $N_2$, $N_2$ and $O_2$ \\
-3. Calculate K following K's formula   |
-|  Answer|$4.08 \times 10^8$.  |>
+### Statics of Dataset
+
+|Train|Dev|Test|
+|------------ | -------------|-------------|
+|4500| 496|500|
+
 
 ### Learderboard
 
