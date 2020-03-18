@@ -11,7 +11,7 @@ Machine intelligence is more appropriately viewed as a diverse collection of cap
 ### An Example 2
 
 Question|At a particular temperature a 2.00 L flask at equilibrium contains $2.80 \times 10^{-4}$ mol $N_2$, $2.50 \times 10^{-5}$ mol $O_2$, and $2.00 \times 10^{-2}$ mol $N_2O$. How would you calculate K at this temperature for the following reaction: $N_2(g) + O_2(g) \rightarrow N_2O(g)$ ?
-
+--------------------------|-------------------------
 Variable to be solved|Equilibrium constant K of this reaction
 Conditions provided| Volume of the flask is 2.00L.
 | Mole of $N_2$ is  $2.80 \times 10^{-4}$ mol. 
