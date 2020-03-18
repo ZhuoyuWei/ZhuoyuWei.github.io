@@ -22,10 +22,9 @@ Method| Accuracy on Dev set
 BERT-based Sequence-to-sequnce Model | 7.03%
 Extractor + DFS Solver| 10.4%
 
-
+### Function Example:
 
 ```python
-#Function Example:
 
 class Func_Mass2Mole(Func):
 
