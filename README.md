@@ -5,7 +5,15 @@ In recently years, people are probably overwhelmed by news report about AI beat 
 Although AI have made such great achievements on the above QA tasks, it is still hard to tell machines have obtained intelligence as human beings. 
 Machine intelligence is more appropriately viewed as a diverse collection of capabilities associated with intelligent behavior rather than a binary pass/fail on a specific task. Especially for a real-world QA task, the collection of capabilities should include a) natural language understanding; b) general inference, reasoning and computing; 3) general and domain-specific knowledge applying. 
 
-### Markdown
+### Table
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
