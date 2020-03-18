@@ -14,6 +14,8 @@ Machine intelligence is more appropriately viewed as a diverse collection of cap
 |------------ | -------------|-------------|
 |4500| 496|500|
 
+### Dataset download
+You can download this dataset at [here](https://github.com/ZhuoyuWei/ZhuoyuWei.github.io/edit/master/README.md).
 
 ### Learderboard
 
