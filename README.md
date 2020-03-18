@@ -24,33 +24,32 @@ Extractor + DFS Solver| 10.4%
 
 
 
+```python
+#Function Example:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+class Func_Mass2Mole(Func):
 
-```markdown
-Syntax highlighted code block
+    name = "Mass2Mole"
+    description = "mole=mass/molar_mass"
+    output_type="mole"
+    input_sat_maps = [["target", "molar_mass"],["target","mass"]]
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+    def __init__(self,inputs,outputs=None):
+        super(Func_Mass2Mole,self).__init__(inputs,outputs)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+    def run_func(self):
+        if not self.sat_running():
+            return False
+        molarMass=self.parameters[0].out_node
+        mass=self.parameters[1].out_node
+        mole_value=mass.value/molarMass.value
+        self.outputs[0].out_node=PU(value=mole_value,unit='mole')
+        return True
 
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZhuoyuWei/ZhuoyuWei.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
