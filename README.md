@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Chemistry Exam
 
-You can use the [editor on GitHub](https://github.com/ZhuoyuWei/ZhuoyuWei.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In recently years, people are probably overwhelmed by news report about AI beat human beings for many times, and some of them are related to Question Answering (QA). For example, IBM Watson won Jeopardy by answering simple questions but with a broad range of knowledge; a lot of neural based models, e.g. XLNet and RoBERTa, beat human beings' performance on both Machine Reading Comprehension and Conversational QA; Ariso System from AI2 gets an 'Ace' for an eighth-grade science examination and is able to give 80 percent correct answers for 12th-grade science test.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Although AI have made such great achievements on the above QA tasks, it is still hard to tell machines have obtained intelligence as human beings. 
+Machine intelligence is more appropriately viewed as a diverse collection of capabilities associated with intelligent behavior rather than a binary pass/fail on a specific task. Especially for a real-world QA task, the collection of capabilities should include a) natural language understanding; b) general inference, reasoning and computing; 3) general and domain-specific knowledge applying. 
 
 ### Markdown
 
