@@ -8,6 +8,7 @@ Machine intelligence is more appropriately viewed as a diverse collection of cap
 ### An Example
 ![GitHub Logo](/images/example.png)
 
+[//]: <
 ### An Example 2
 | Question  | At a particular temperature a 2.00 L flask at equilibrium contains $2.80 \times 10^{-4}$ mol $N_2$, $2.50 \times 10^{-5}$ mol $O_2$, and $2.00 \times 10^{-2}$ mol $N_2O$. How would you calculate K at this temperature for the following reaction: $N_2(g) + O_2(g) \rightarrow N_2O(g)$ ?  |
 |---|---|
@@ -23,14 +24,14 @@ Balance the reaction equation following atomic conservation theory.|
 | Solving steps   | 1. Balance the reaction equation to get a,b and c.\\
 2. Calculate molarities for $N_2$, $N_2$ and $O_2$ \\
 3. Calculate K following K's formula   |
-|  Answer|$4.08 \times 10^8$.  |
+|  Answer|$4.08 \times 10^8$.  |>
 
-### Table
+### Learderboard
 
-First Header | Second Header
+Method| Accuracy on Dev set
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+BERT-based Sequence-to-sequnce Model | 7.03%
+Extractor + DFS Solver| 10.4%
 
 
 
